@@ -1,0 +1,13 @@
+services:
+  web2py:
+    build: .
+    container_name: web2py_app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./applications:/opt/web2py/applications
+    #  - ./web2py_data:/opt/web2py/applications/admin/uploads
+    environment:
+      - PYTHONPATH=/opt/web2py
+    restart: unless-stopped
+    

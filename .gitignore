@@ -1,0 +1,5 @@
+applications/*
+!applicattions/__init__*
+!applicattions/admin
+!applicattions/welcome
+
