@@ -1,6 +1,6 @@
-## Entorno de desarrollo 🐍 Python2 y Web2py  con 🐳 Docker
+## Entorno de desarrollo Python2 y Web2py  con Docker
 Permite correr Web2py con Python 2 en sistemas operativos que no lo soportan
-Permite simular distintos entornos versiones web2py, librerías, etc, configurando Dockerfile
+Permite simular distintos entornos Python, con versiones de Web2py y librerías específicas, configurando Dockerfile y requirements.txt
 
 ### Requisitos
 Tener instalado docker y docker compose. Testeado con Docker version 28
