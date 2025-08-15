@@ -1,5 +1,20 @@
+# Certificates
+server.crt
+server.key
+
+# Only admin and welcome apps
 applications/*
-!applicattions/__init__*
-!applicattions/admin
-!applicattions/welcome
+!applicattions/__init__.py
+!applicattions/admin/
+!applicattions/welcome/
+
+# tmps
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.sqlite
+*.db
+*.swp
+*.bak
 
